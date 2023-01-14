@@ -169,6 +169,11 @@
     <Image Include="Exercise_1.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Foundation.vcxproj">
+      <Project>{282ad361-4071-4dd8-bd58-e86da35c9ae8}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
